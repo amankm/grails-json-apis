@@ -30,7 +30,7 @@ include that property in all APIs. The database identity property will always be
 automatically. One could for instance define the following domain class:
 
 ```groovy
-import grails.plugins.jsonapis.JsonApi
+import JsonApi
 
 class User {
 	@JsonApi
